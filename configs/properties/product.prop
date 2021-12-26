@@ -76,6 +76,9 @@ ro.vold.umsdirtyratio=20
 pm.sleep_mode=1
 power.saving.mode=1
 
+# Printk
+persist.vendor.console.silent.config=1
+
 # Rich-Communication Services
 persist.rcs.supported=1
 
