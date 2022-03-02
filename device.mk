@@ -76,6 +76,9 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.system \
     libvulkan
+    
+# Dex
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 
 # Fastboot
 PRODUCT_PACKAGES += \
