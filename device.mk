@@ -21,6 +21,15 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Inherit from vendor if exists
 $(call inherit-product-if-exists, vendor/xiaomi/juice/juice-vendor.mk)
 
+BOARD_BUILD_PRODUCT_IMAGE := true
+PRODUCT_BUILD_SUPER_PARTITION := false
+PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+BOARD_SHIPPING_API_LEVEL := 29
+PRODUCT_SHIPPING_API_LEVEL := 29
+PRODUCT_TARGET_VNDK_VERSION := 30
+PRODUCT_EXTRA_VNDK_VERSIONS := 29 30
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
@@ -160,20 +169,12 @@ PRODUCT_PACKAGES += \
    TetheringConfigOverlayJuice \
    WifiOverlayJuice
 
-# Partition
-PRODUCT_BUILD_SUPER_PARTITION := false
-BOARD_BUILD_PRODUCT_IMAGE := true
-PRODUCT_USE_DYNAMIC_PARTITIONS := true
-
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.qti \
     vendor.qti.hardware.perf@2.0 \
     vendor.qti.hardware.perf@2.1 \
     vendor.qti.hardware.perf@2.2
-
-# Properties
-PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Radio
 PRODUCT_PACKAGES += \
@@ -195,10 +196,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2 \
     android.hardware.secure_element@1.2.vendor
-
-# Shipping API
-PRODUCT_SHIPPING_API_LEVEL := 29
-BOARD_SHIPPING_API_LEVEL := 29
 
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
@@ -223,10 +220,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service
-
-# VNDK
-PRODUCT_TARGET_VNDK_VERSION := 30
-PRODUCT_EXTRA_VNDK_VERSIONS := 29 30
 
 # Vendor Overlay
 PRODUCT_COPY_FILES += \
