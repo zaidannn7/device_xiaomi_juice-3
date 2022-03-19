@@ -183,6 +183,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
 # Sepolicy
+SELINUX_IGNORE_NEVERALLOWS=true
 include device/qcom/sepolicy/SEPolicy.mk
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 
