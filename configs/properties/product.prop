@@ -4,7 +4,8 @@ ro.sf.blurs_are_expensive=1
 ro.surface_flinger.supports_background_blur=1
 
 # Dex2oat
-dalvik.vm.dex2oat64.enabled=true
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.dex2oat64.enabled=true
 
 # Disable Rescue Party
 persist.device_config.configuration.disable_rescue_party=true
