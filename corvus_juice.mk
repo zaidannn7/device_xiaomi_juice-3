@@ -32,8 +32,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.corvus.maintainer=Nathaniel_Quitua
 
 # Fingerprint
-BUILD_FINGERPRINT := google/raven/raven:12/SP2A.220305.013.A3/8229987:user/release-keys
-BUILD_DESC := "raven-user 12 SP2A.220305.013.A3 8229987 release-keys"
+BUILD_FINGERPRINT := google/raven/raven:12/SP2A.220405.004/8233519:user/release-keys
+BUILD_DESC := "raven-user 12 SP2A.220405.004 8233519 release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
