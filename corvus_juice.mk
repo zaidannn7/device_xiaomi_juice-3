@@ -28,8 +28,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 RAVEN_LAIR=Official
 
 # Corvus Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.corvus.maintainer=Nathaniel_Quitua
+CORVUS_MAINTAINER=nathankits
 
 # Fingerprint
 BUILD_FINGERPRINT := google/raven/raven:12/SQ3A.220705.003/8671607:user/release-keys
