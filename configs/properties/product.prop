@@ -51,6 +51,9 @@ ro.surface_flinger.use_context_priority=true
 ro.surface_flinger.has_wide_color_display=false
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
+persist.sys.sf.native_mode=2
+vendor.display.qdcm.disable_factory_mode=1
+vendor.display.qdcm.mode_combine=1
 
 # SF Offset
 debug.sf.late.sf.duration=10500000
