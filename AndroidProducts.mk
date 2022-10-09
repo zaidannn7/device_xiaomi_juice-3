@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_juice.mk
+    $(LOCAL_DIR)/krypton_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_juice-user \
-    corvus_juice-userdebug \
-    corvus_juice-eng
+    krypton_juice-user \
+    krypton_juice-userdebug \
+    krypton_juice-eng
