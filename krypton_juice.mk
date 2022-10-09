@@ -15,7 +15,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := corvus_juice
+PRODUCT_NAME := krypton_juice
 PRODUCT_DEVICE := juice
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Juice
