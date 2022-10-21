@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_juice.mk
+    $(LOCAL_DIR)/krypton_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_juice-user \
-    ssos_juice-userdebug \
-    ssos_juice-eng
+    krypton_juice-user \
+    krypton_juice-userdebug \
+    krypton_juice-eng
