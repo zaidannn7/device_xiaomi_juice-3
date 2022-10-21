@@ -7,15 +7,15 @@
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/juice/device.mk)
 
-# Inherit some common krypton stuff.
-$(call inherit-product, vendor/krypton/config/common_full_phone.mk)
+# Inherit some common ShapeShift stuff.
+$(call inherit-product, vendor/ssos/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Gapps
 TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := krypton_juice
+PRODUCT_NAME := ssos_juice
 PRODUCT_DEVICE := juice
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Juice
