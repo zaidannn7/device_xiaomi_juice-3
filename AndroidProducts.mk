@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/krypton_juice.mk
+    $(LOCAL_DIR)/awaken_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    krypton_juice-user \
-    krypton_juice-userdebug \
-    krypton_juice-eng
+    awaken_juice-user \
+    awaken_juice-userdebug \
+    awaken_juice-eng
